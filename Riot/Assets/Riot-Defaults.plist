@@ -17,9 +17,9 @@
 	<key>identityserverurl</key>
 	<string>https://vector.im</string>
 	<key>homeserverurl</key>
-	<string>https://matrix.org</string>
+	<string>https://matrix.staude.net</string>
 	<key>homeserver</key>
-	<string>matrix.org</string>
+	<string>matrix.staude.net</string>
 	<key>webAppUrlDev</key>
 	<string>https://riot.im/develop</string>
 	<key>webAppUrlBeta</key>
