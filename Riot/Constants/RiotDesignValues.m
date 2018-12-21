@@ -95,14 +95,14 @@ UIKeyboardAppearance kRiotKeyboard;
     // Load colors at the app load time for the life of the app
 
     // Colors as defined by the design
-    kRiotColorGreen = UIColorFromRGB(0x62CE9C);
-    kRiotColorSilver = UIColorFromRGB(0xC7C7CC);
-    kRiotColorPinkRed = UIColorFromRGB(0xFF0064);
-    kRiotColorRed = UIColorFromRGB(0xFF4444);
-    kRiotColorIndigo = UIColorFromRGB(0xBD79CC);
-    kRiotColorOrange = UIColorFromRGB(0xF8A15F);
-    kRiotColorBlue = UIColorFromRGB(0x81BDDB);
-    kRiotColorCuriousBlue = UIColorFromRGB(0x2A9EDB);
+    kRiotColorGreen = UIColorFromRGB(0x367499);   // war 62CE9C
+    kRiotColorSilver = UIColorFromRGB(0x367499);
+    kRiotColorPinkRed = UIColorFromRGB(0x367499);
+    kRiotColorRed = UIColorFromRGB(0x367499);
+    kRiotColorIndigo = UIColorFromRGB(0x367499);
+    kRiotColorOrange = UIColorFromRGB(0x367499);
+    kRiotColorBlue = UIColorFromRGB(0x367499);
+    kRiotColorCuriousBlue = UIColorFromRGB(0x367499);
 
     kRiotBgColorWhite = [UIColor whiteColor];
     kRiotBgColorBlack = UIColorFromRGB(0x2D2D2D);
@@ -121,8 +121,8 @@ UIKeyboardAppearance kRiotKeyboard;
     kRiotTextColorDarkWhite = UIColorFromRGB(0xD9D9D9);
 
     // Colors copied from Vector web
-    kRiotColorLightGreen = UIColorFromRGB(0x50e2c2);
-    kRiotColorLightOrange = UIColorFromRGB(0xf4c371);
+    kRiotColorLightGreen = UIColorFromRGB(0x367499);   // war 50e2c2
+    kRiotColorLightOrange = UIColorFromRGB(0x367499);
 
     // Observe user interface theme change.
     [[NSUserDefaults standardUserDefaults] addObserver:[RiotDesignValues sharedInstance] forKeyPath:@"userInterfaceTheme" options:0 context:nil];
