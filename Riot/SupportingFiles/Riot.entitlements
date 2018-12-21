@@ -16,7 +16,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.rpi.chat</string>
+		<string>group.im.vector</string>
 	</array>
 </dict>
 </plist>
